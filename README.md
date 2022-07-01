@@ -27,3 +27,6 @@ In this challenge, you’ll help Jeremy and the data analytics team do the follo
 
 The variables/coefficients that provided a non-random amount of variance to the mpg values ar the vehicle length and ground clearance. Their individual p-values, 2.60e-12 and 5.21e-08 respectively, fall well below the .05 significance level. This would indicate that they have significant impact on fuel efficiency. The slope of the linear model is not considered to be zero. At a p-value of 5.35e-11, it to falls well below the .05 significance level. This multiple linear model does predict mpg of MechaCar prototypes effectively in that it has a multiple R-squared value of 0.7149. This indicates that the model explains approximately 71% of the variability.
 
+### Summanry Statistics on Suspension Coils
+
+- The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
