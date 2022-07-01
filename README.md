@@ -72,7 +72,10 @@ With the rise in fuel cost, I would test city fuel efficiency and highway fuel e
 Comparing MechaCar cost and city and highway fuel efficiency with the competition, the null hypothesis will be that the comparisons don't vary significantly. The alternative hypothese will be that there is significant difference in comparison between MechaCAr and the competition.
 
 #### What statistical test would you use to test the hypothesis? And why?
-I would use the multiple
+I would use the two sample t-tests to test the hypothesis that the cost of the vehicles and its fuel efficiency are either similar or dissimilar.
+
+#### What data is needed to run the statistical test?
+The cost of the MechaCAr and the cost of the competition cars would be needed. Also, the city and highway fuel efficiency for each vehicle will be needed. 
 
 
 
