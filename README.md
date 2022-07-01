@@ -75,7 +75,7 @@ Comparing MechaCar cost and city and highway fuel efficiency with the competitio
 I would use the two sample t-tests to test the hypothesis that the cost of the vehicles and its fuel efficiency are either similar or dissimilar.
 
 #### What data is needed to run the statistical test?
-The cost of the MechaCAr and the cost of the competition cars would be needed. Also, the city and highway fuel efficiency for each vehicle will be needed. 
+The cost of the MechaCar and the cost of the competition cars would be needed. Also, the city and highway fuel efficiency for each vehicle will be needed. 
 
 
 
