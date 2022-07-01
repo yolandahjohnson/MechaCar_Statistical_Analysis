@@ -27,7 +27,7 @@ In this challenge, you’ll help Jeremy and the data analytics team do the follo
 
 The variables/coefficients that provided a non-random amount of variance to the mpg values ar the vehicle length and ground clearance. Their individual p-values, 2.60e-12 and 5.21e-08 respectively, fall well below the .05 significance level. This would indicate that they have significant impact on fuel efficiency. The slope of the linear model is not considered to be zero. At a p-value of 5.35e-11, it to falls well below the .05 significance level. This multiple linear model does predict mpg of MechaCar prototypes effectively in that it has a multiple R-squared value of 0.7149. This indicates that the model explains approximately 71% of the variability.
 
-### Summanry Statistics on Suspension Coils
+### Summary Statistics on Suspension Coils
 
 - The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
@@ -38,3 +38,24 @@ The variables/coefficients that provided a non-random amount of variance to the 
 
 Overall, the total summary shows that the variance is less than 100 PSI at 62 PSI. However, with the individual lots, Lot3 has a variance well over 100 PSI at 170 PSI.
 
+### T-Tests on Suspension Coils
+
+#### Supsension Coils T-test for all Manufacturing Lots
+![t-test suspension coils](https://user-images.githubusercontent.com/100816778/176976030-b7b1e032-f8e8-4419-bfdd-2f032c0d701f.png)
+
+With a p-value of 0.06 there is not enough evidence to support rejecting the null hypothesis. The mean of all manufacturing lots is statistically similar to the population mean of 1,500 PSI.
+
+#### T-test Suspension Coils Lot1
+![t-test suspension coils Lot1](https://user-images.githubusercontent.com/100816778/176976046-ff5d073a-29e0-48c5-9238-93a74a96bde7.png)
+
+With a p-value of 1, there is no evidence to support rejecting the null hypothesis. The mean of all manufacturing lots is statistically similar to the population mean of 1,500 PSI.
+
+#### T-test Suspension Coils Lot2
+![t-test suspension coils Lot2](https://user-images.githubusercontent.com/100816778/176976060-67801cbe-9a49-4950-9831-a7a1f53f9c80.png)
+
+With a p-value of 0.61 , there is no evidence to support rejecting the null hypothesis. The mean of manufacturing lot2 is statistically similar to the population mean of 1,500 PSI.
+
+#### T-test Suspension Coils Lot3
+![t-test suspension coils Lot3](https://user-images.githubusercontent.com/100816778/176976070-83d92bff-c69e-44cb-bd80-0113800789a1.png)
+
+With a p-value of 0.04 and a sample mean value of 1496.14, both are slightly lower than the significance level of 0.05 and the population mean of 1,500. There is evidence to reject the null hypothesis.
